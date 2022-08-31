@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto+Condensed:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #444;
+  background-color: whitesmoke;
+}
+
+header .logo h1 {
+  text-transform: uppercase;
+  word-break: 5px;
+  letter-spacing: 3px;
+  text-align: center;
+  margin: 25px 0;
+  font-size: 3rem;
+}
+.city-bg-container {
+  width: 100%;
+  height: 75vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.new-york {
+  background-image: url(./images/new-york.jpg);
+}
+.florida {
+  background-image: url(./images/florida.jpg);
+}
+.california {
+  background-image: url(./images/california.jpg);
+}
+.texas {
+  background-image: url(./images/texas.jpg);
+}
+.city-bg-container h1 {
+  text-transform: uppercase;
+  color: rgba(253, 252, 250, 0.65);
+  font-size: 3rem;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+  padding: 250px 0 0 100px;
+}
+
+.florida h1 {
+  color: rgb(238, 174, 11);
+}
+.california h1 {
+  color: rgb(20, 19, 16);
+}
+.texas h1 {
+  color: rgb(255, 255, 255);
+}
+
+.city-details-container {
+  margin: 55px;
+  text-align: center;
+}
+.city-details-container h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  padding-bottom: 15px;
+}
+.new-york-text h1 {
+  color: #ec904e;
+}
+.florida-text h1 {
+  color: #8d674e;
+}
+.texas-text {
+  color: #493513;
+}
+.city-details-container p {
+  text-align: justify;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+.city-details-container a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: #444;
+  padding: 10px 15px;
+  font-size: 1.5rem;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 25px auto;
+  font-weight: 600;
+}
+.city-details-container a:hover {
+  background-color: rgb(17, 17, 17);
+}
+.city-details-container a:active {
+  outline: 3px solid rgba(68, 68, 68, 0.897);
+}
+
+footer p {
+  background-color: #444;
+  color: white;
+  font-size: 2rem;
+  padding: 25px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
